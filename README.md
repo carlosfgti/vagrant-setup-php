@@ -14,6 +14,7 @@ Configuração do Vagrant (com provisionamento em Shell Script) para criar uma m
 - Composer
 - cURL
 - Vim
+- Redis
 (Para mais detalhes consulte arquivo setup.sh)
 
 

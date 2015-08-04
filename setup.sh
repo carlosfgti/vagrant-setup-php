@@ -49,6 +49,10 @@ echo "--- Baixando e Instalando Composer ---"
 curl -sS https://getcomposer.org/installer | php
 sudo mv composer.phar /usr/local/bin/composer
 
+echo "--- Instalando Banco NoSQL -> Redis <- ---" 
+sudo apt-get install redis-server --assume-yes
+sudo apt-get install php5-redis
+
 # Instale apartir daqui o que você desejar 
 
 echo "[OK] --- Ambiente de desenvolvimento concluido ---"
