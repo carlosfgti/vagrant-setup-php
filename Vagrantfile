@@ -6,7 +6,7 @@ Vagrant.configure("2") do |config|
     config.vm.synced_folder "www/", "/var/www", owner: "www-data", group: "www-data", mount_options: ['dmode=777','fmode=666']
     config.vm.synced_folder "~", "/vagrant", owner: "vagrant", group: "vagrant"
     config.vm.provider "virtualbox" do |machine|
-    	machine.memory = 512
+    	machine.memory = 1024
     	machine.name = "ubuntu-server-php"
     end
     config.vm.provision :shell, path: "setup.sh"
