@@ -37,7 +37,7 @@ echo "--- Instalando MySQL, Phpmyadmin e alguns outros modulos ---"
 sudo apt-get install mysql-server-5.5 mysql-client phpmyadmin --assume-yes --force-yes
 
 echo "--- Instalando PHP, Apache e alguns modulos ---"
-sudo apt-get install php5.6 apache2 libapache2-mod-php5.6 php5.6-curl php5.6-gd php5.6-mcrypt php5.6-mysql php5.6-mbstring php5.6-json php5.6-xml --assume-yes --force-yes
+sudo apt-get install php5.6 apache2 libapache2-mod-php5.6 php5.6-curl php5.6-gd php5.6-mcrypt php5.6-mysql php5.6-mbstring php5.6-json php5.6-xml unzip php7.0-zip install php7.0-mbstring --assume-yes --force-yes
 
 echo "--- Habilitando mod-rewrite do Apache ---"
 sudo a2enmod rewrite
